@@ -16,7 +16,7 @@ namespace test
 	}
 	CClass::CClass(char*className, int studentCnt) :CClass()
 	{
-		strcpy(this->className, className);
+		strcpy_s(this->className, className);
 		this->studentCnt = studentCnt;
 
 	}

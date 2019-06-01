@@ -30,6 +30,12 @@
     <ClInclude Include="CGroup.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCvTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -45,6 +51,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CGroup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCvTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

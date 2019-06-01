@@ -1,0 +1,7 @@
+﻿  CClass.cpp
+  ConsoleApplication1.cpp
+  CSchook.cpp
+  CGroup.cpp
+  stdafx.cpp
+  正在生成代码...
+ARM\Debug\CClass.obj : fatal error LNK1112: 模块计算机类型“x86”与目标计算机类型“ARM”冲突
