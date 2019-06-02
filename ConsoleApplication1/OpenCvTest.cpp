@@ -113,3 +113,22 @@ void OpenCvTest::detectAndShowImg(string path, bool needRotate, int angle)
 
 }
 
+
+void OpenCvTest::detectAndShowImg(Path& pathStruct, bool needRotate, int angle)
+{
+	
+		string path = pathStruct.path;
+		detectAndShowImg(path,needRotate,angle);
+	
+	
+}
+
+void OpenCvTest::detectAndShowImg(Path* pathStruct, bool needRotate, int angle)
+{
+	string path = pathStruct->path;
+	detectAndShowImg(path, needRotate, angle);
+
+}
+
+
+

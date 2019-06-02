@@ -8,6 +8,10 @@
 #include<string>
 using namespace std;
 using namespace cv;
+struct Path
+{
+	string path;
+};
 class OpenCvTest
 {
 public:
@@ -23,6 +27,8 @@ public:
 	void detectAndShowImg(string path);
 	/**/
 	void detectAndShowImg(string path,bool needRotate=false,int angle=0);
+	void detectAndShowImg(Path &pathStruct, bool needRotate, int angle);
+	void detectAndShowImg(Path* pathStruct, bool needRotate, int angle);
 
 };
 
