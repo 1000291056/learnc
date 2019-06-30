@@ -168,6 +168,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTree.h" />
     <ClInclude Include="CClass.h" />
     <ClInclude Include="CSchook.h" />
     <ClInclude Include="CGroup.h" />
@@ -177,6 +178,7 @@
     <ClInclude Include="Tree.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BinaryTree.cpp" />
     <ClCompile Include="CClass.cpp" />
     <ClCompile Include="ConsoleApplication1.cpp" />
     <ClCompile Include="CSchook.cpp" />
