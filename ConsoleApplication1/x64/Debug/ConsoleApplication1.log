@@ -1,2 +1,3 @@
 ﻿  ConsoleApplication1.cpp
+E:\Document\FFW\Project\learnc\ConsoleApplication1\ConsoleApplication1.cpp(428,4): warning C4102:  “std”: 未引用的标签
   ConsoleApplication1.vcxproj -> E:\Document\FFW\Project\learnc\x64\Debug\ConsoleApplication1.exe
